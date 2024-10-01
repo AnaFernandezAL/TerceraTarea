@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tercera tarea de Diseño Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" content="text/css" href="CSS/default.css"/>
+        <link rel="stylesheet" content="text/css" href="CSS/menu.css"/>
+    </head>
+
+    <body>
+        <div id="outer">
+            <header id="header">
+                <br>
+                <h1 class="cabecera">Tercera Tarea Diseño</h1>
+                
+                <div id="Imagen">
+                    <img src="resourses/ejemplo.webp" alt="Ejemplo" width="380" height="206"/>
+                </div>
+                <div id="ContenidoEx">
+                <p>En la era digital actual, donde la variedad de dispositivos y tamaños de pantalla prolifera, el diseño web responsivo se ha convertido en una herramienta fundamental para crear experiencias de usuario óptimas en cualquier contexto. Esta tarea de investigación tiene como objetivo sumergirte en los pilares del diseño web responsivo, explorando conceptos como Viewport, Media Queries, Grid-View y la poderosa herramienta Bootstrap 5.</p>
+                </div>
+            </header>
+            <br>
+            <nav id="menu">
+                <div id="container">
+                    <a class="principal" href="index.html">Home</a>
+                    <a class="principal" href="#">Viewport</a>
+                    <a class="principal" href="#">Media Query</a>
+                    <a class="principal" href="#">Grid view</a>
+                    <a class="principal" href="#">Bootstrap5</a>
+                    <a class="principal last" href="#">Ejemplos</a>
+                </div>
+                </nav>
+
+            <Aside id="izquierda">
+                <h3>Autora</h3>
+                <div class="content">
+                    <img src="resourses/Usuario.jpg" width="120" height="120"/>
+                    <p><strong>Ana Paula Fernandez Alfaro</strong> una estudiante de informática apasionado por la tecnología y el diseño web. Ha desarrollado una página web como parte de un proyecto académico, donde ha aplicado sus conocimientos en HTML y CSS... <a href="#">Más información...</a></p>
+                </div>
+
+                <h4>Contenidos de esta pagina</h4>
+                <div class="content">
+                    <ul class="lista">
+                        <li>Viewport</li>
+                        <li>Media Query</li>
+                        <li>Grid-View</li>
+                        <li>Bootstrap5</li>
+                    </ul>
+                </div>
+            </Aside>
+
+            <main id="Contenido">
+
+            <div id="Responsivo">
+                <h2>Diseño web responsivo</h2>
+                <p>Es un Formato de programación que permite ajustar un sitio web automáticamente a las características de los dispositivos de sus usuarios.</p>
+                
+                    <ul>
+                    <p><strong>Los diseños responsive:</strong></p>
+                    <li>Prefieren los formatos verticales y priorizan informacion</li>
+                    <li>Implementan las funciones de los dispositivos y aprovechan la iteracion con los usuarios</li>
+                    <li>Automatizan labores de dise;o y programacion</li>
+                    </ul>
+                
+                <p>La principal característica del diseño responsive es su flexibilidad. No obstante, existen otras propiedades importantes a considerar.</p>
+
+            </div>
+
+            <br>
+
+            <div id="ViewPort">
+                <h2>
+                    Viewport
+                </h2>
+                <p>El viewport es el área visible de la página, esta varía dependiendo del tamaño del dispositivo en el que esté el usuario, puede ser más grande o más pequeño.</p>
+                <p><strong>Se debe incluir la siguiente etiqueta de meta en todas las paginas web</strong></p>
+                <img src="resourses/ejemploViewport.png" alt="Codigo meta que se debe agregar en el encabezado" class="ejemMeta" width="501" height="30">
+
+                <p>Con esto le indicamos al buscador qué hacer cuando el tamaño de la pantalla cambia.
+                    Con <code>width=device-width</code> establecemos cual será el ancho de la/s página/s, mientras que con <code>initial-scale=1.0</code>, establecemos el zoom de la página cuando recién la cargamos.
+                    </p>
+                    
+            </div>
+
+            <div id="Queries">
+                <h2>Media Query</h2>
+                <p>
+                    Es una técnica usada en CSS3. Se usa para encapsular una serie de propiedades que se van a cumplir solamente si la condición que le acompaña es verdadera.
+                </p>
+                <p><strong>Ejemplon 1:</strong> En este ejemplo, cuando el ancho máximo de la página es 600 o mayor, la página se verá de color azul.</p>
+                <img src="resourses/Ejemplo1viewport.png" alt="ejemplo 1 del uso del View port" width="500" height="150" class="ejemQ">
+            </div>
+            </main>
+
+            <div id="ImagenesExtra">
+                <div>
+                    <img src="resourses/Captura de pantalla 2024-09-28 142401.png" width="150" height="100">
+                </div>
+
+                <div>
+                    <img src="resourses/imgExtra.png" width="150" height="100">
+                </div>
+
+                <div>
+                    <img src="resourses/imgExtra2.png" width="150" height="100">
+                </div>
+
+                <div>
+                    <img src="resourses/imgExtra3.png" width="150" height="100">
+                </div>
+            </div>
+
+        </div>
+
+        <footer id="footer">
+            <credit>&copy; Derechos Reservados ISW-DAW UTN I-2021</credit>
+        <div id="date">Sep 30, 2024</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+        </footer>
+    </body>
+</html>

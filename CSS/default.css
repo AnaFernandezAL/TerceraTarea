@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../resourses/ImagenFondo.png");
+    font-size: 11px;
+    font-family: 'Trebuchet MS',  sans-serif;
+    color: black;
+    line-height: 18px;
+}
+
+#outer {
+    position: relative;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: rgb(225, 239, 252);
+    border: initial;
+    
+}
+
+header{
+    max-width: 100%;
+    height: 170px;
+}
+
+#header .cabecera{
+    text-align: center;
+    size: 24px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted rgb(54, 78, 133);
+}
+
+#header #Imagen{
+    float: left;
+    width: 50%;
+    height: 170px;
+    padding: 28px;
+    padding-top: 10px;
+}
+
+#header #ContenidoEx{
+    float: left;
+    width: 50%;
+    height: 170px;
+    padding: 28px;
+    padding-top: 10px;
+}
+
+#Contenido{
+    width: 100%;
+    background-color: rgb(225, 239, 252);
+}
+
+#izquierda{
+    float: left;
+    width: 25%;
+    margin: 25px;
+    padding-right: 15px;
+    margin-bottom: 70px;
+    border-right: 1px dotted rgb(54, 78, 133);
+}
+
+#izquierda h3{
+    margin-left: 10px;
+}
+
+#izquierda .content{
+    margin-left: 23px;
+}
+
+
+#Contenido {
+    margin: 25px;
+    width: auto;
+}
+
+#Contenido #Viewport h2{
+    margin-top: 25px;
+}
+
+#Contenido #Queries{
+    margin-left: 25px;
+    margin: 23px;
+    width: auto;
+}
+
+#ImagenesExtra{
+    display: flex;
+    border-top: 1px dotted rgb(54, 78, 133);
+    margin: 23px;
+    width: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+#ImagenesExtra > div{
+    margin: 10px;
+    width: auto;
+    
+
+}
+
+#footer{
+    border-top: 1px dotted;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 15px;
+    background-color: rgb(42, 118, 145);
+}
+
+
+@media only screen  and (max-width: 720px){
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header #Imagen{
+        padding-left: 4.7%;
+        clear: both;
+    }
+
+    #header #Contenido{
+        clear: both;
+    }
+
+    #ImagenesExtra{
+        flex-flow: column;
+    }
+
+    #outer #menu #container a{
+        width: 100%;
+    }
+
+    #header #ContenidoEx{
+        width: 100%;
+        border-top: 1px dotted rgb(54, 78, 133);
+        margin-top: 50px;
+    }
+
+    #outer #menu{
+        margin-top: 270px;
+    }
+
+    #outer #menu #container a {
+        text-align: center;
+    }
+
+    #outer #izquierda{
+        float: none;
+        width: 0%;
+        margin: 0px;
+        padding-right: 0px;
+        margin-bottom: 0%;
+        border-right: 0px;
+        display: none;
+    }
+
+    #outer #contenido{
+        position: absolute;
+        width: 100%;
+        float: none;
+        margin-left: 23px;
+    }
+
+    #ViewPort .ejemMeta{
+        width: 75%;
+        height: 15px;
+    }
+
+    #Queries .ejemQ{
+        width: 80%;
+        height: auto;
+    }
+
+    #izquierda .content{
+        margin-left: 0px;
+    }
+
+}

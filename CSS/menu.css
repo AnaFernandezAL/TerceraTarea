@@ -1,0 +1,30 @@
+#menu{
+    display: flex;
+    height: auto;
+    margin-top: 135px;
+    margin-bottom: 15px;
+    background-color: rgb(68, 146, 168);
+    opacity: 100%;
+    clear: both;
+}
+
+#menu #container .principal{
+    float: left;
+    color:azure;
+    text-decoration: none;
+    text-align: justify;
+    padding: 15px 30px;
+    border-right: 1px dotted rgb(54, 78, 133);
+}
+
+#menu #container .last{
+    border-right: 0px dotted rgb(54, 78, 133);
+}
+
+#menu #container a:hover{
+    background-color: rgb(27, 61, 134);
+    font-weight: bolder;
+}
+
+
+
